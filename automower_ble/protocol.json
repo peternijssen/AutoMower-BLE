@@ -205,5 +205,50 @@
         "minor": 5,
         "description": "Get the user defined mower name",
         "responseType": "ascii"
+    },
+    "GetSwVersionStringBoot": {
+        "major": 4720,
+        "minor": 0,
+        "responseType": "ascii"
+    },
+    "GetSwVersionStringAppl": {
+        "major": 4720,
+        "minor": 1,
+        "responseType": "ascii"
+    },
+    "GetSwVersionStringSub": {
+        "major": 4720,
+        "minor": 2,
+        "responseType": "ascii"
+    },
+    "GetBoardTypeRequest": {
+        "major": 4758,
+        "minor": 0,
+        "responseType": "tSimpleVersion"
+    },
+    "GetProductionTimeRequest": {
+        "major": 4758,
+        "minor": 1,
+        "responseType": "tUnixTime"
+    },
+    "GetNodeIprIdRequest": {
+        "major": 4758,
+        "minor": 2,
+        "responseType": "ascii"
+    },
+    "GetHusqvarnaIdRequest": {
+        "major": 4758,
+        "minor": 3,
+        "responseType": "ascii"
+    },
+    "GetSerialNumberRequest": {
+        "major": 4758,
+        "minor": 4,
+        "responseType": "ascii"
+    },
+    "GetHardwareRevisionResponse": {
+        "major": 4758,
+        "minor": 5,
+        "responseType": "uint16"
     }
 }

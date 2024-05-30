@@ -176,7 +176,7 @@ class Command:
                     data[dpos : dpos + 4], byteorder="little"
                 )
                 dpos += 4
-            elif dtype == "uint16":
+            elif (dtype == "uint16") or (dtype == "tSimpleVersion"):
                 response[name] = int.from_bytes(
                     data[dpos : dpos + 2], byteorder="little"
                 )
